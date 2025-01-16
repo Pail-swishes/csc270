@@ -103,33 +103,42 @@ body{
 
 aside{ /*formats media section*/
   order:1;
-  align-self: center;
+  align-items: flex-end;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 0px 25px;
-  width: 350px;
-  height: 200px;
+  gap: 0px 10%;
+  width: 100%;
+  height: 50%;
 }
 
+#support , #activities, #preschool, #concerns, #childcare {
+   aside{display:none;};
+}
 
 
 
 aside::before{ /*formats "Follow Us" text*/
   content: "Follow us!";
-  font-size: 55px;
+  font-size: 300%;
   font-family: "Rock Salt";
-} img[alt="Facebook"]{ /*formats insta logo*/
+  margin-bottom: 20px;
+} 
+
+img[alt="Facebook"]{ /*formats insta logo*/
   background-color: rgb(24, 119, 242);
-  border-radius: 50px;
-  height: 100px;
+  border-radius: 30%;
+  height: 75%;
+  align-self: center;
+  margin-bottom: 20px;
 }
 
 
 img[alt="Instagram"]{ /*formats fb logo*/
   background-color: rgb(255, 0, 68);
-  border-radius: 50px;
-  height: 100px;
+  border-radius: 30%;
+  height: 75%;
+  margin-bottom: 20px;
 }
 
 
@@ -296,13 +305,6 @@ img[alt="Instagram"]{ /*formats fb logo*/
 
 /* ---ACTIVITIES SECTION--- */
 
-
-
-
-#activities aside{ /*remove extra spacing on top*/
-   display: none;
- }
- 
  
  #activities li>a[href="activities.html"]{ /* indicates that user is on home page (in nav bar) */
     font-weight: bold;
@@ -379,10 +381,11 @@ img[alt="Instagram"]{ /*formats fb logo*/
        list-style-type: none;
        li {
          width:25%;
+         font-size: 200%;
        }
        *{
            margin: 2%;
-           border-radius: 5px;
+           border-radius: 10%;
            padding: 1%; 
  
            text-align: center;
@@ -493,11 +496,6 @@ img[alt="Instagram"]{ /*formats fb logo*/
 
 
 
-#support aside{
-  display: none;
-}
-
-
 
 
 #newParents img, #theraphy img, #caregivers img,  #kids-and-parents img, #kidAdventues img, #preschool img{ /* resize all logos */
@@ -505,15 +503,6 @@ img[alt="Instagram"]{ /*formats fb logo*/
 }
 
 /* ---PRESCHOOL SECTION--- */
-
-
-
-
-
-#preschool aside{
-   display: none;
-}
-
 
 
 
