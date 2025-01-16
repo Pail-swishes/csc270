@@ -4,14 +4,24 @@
 
 
 
+
+
+
+
 img.logo{ /*clear old logo*/
   display: none;
+}
+
+
+header{
+   width: auto;
 }
 
 
 h1.title{
   padding: 100px;
   height: 200px;
+  width: 100%;
 
 
   color: #086788;
@@ -21,56 +31,17 @@ h1.title{
 }
 
 
-#home h1.title{ /*banner with new logo*/
-  background-image: url("imgs/clouds.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
 
 body{
   margin: 0px;
   background-color: white;
-  width: 1200px;
+  width: 1180px;
 }
 
 
-nav{ /*positioning nav bar*/
-  top: 0px;
-  position: fixed;
-  width: 100%;
-  background-color: #129997;
 
 
-  ul{ /*format nav buttons */
-     display:flex;
-     justify-content: center;
-     list-style-type: none;
-
-
-     gap:10%;
-     margin-right:15px;
-     margin-left:15px;
-
-
-     font-family: Arial, Helvetica, sans-serif;
-     font-size: larger;
-
-
-      *{
-          color:white;
-          text-decoration: none;
-          flex-grow: 1;
-      }
-  }
- }
-
-
-
-
-a{ /*turns all links to theme color*/
-  color: rgb(48, 112, 149);
-}
 
 
 section{ /*formats main text section */
@@ -79,24 +50,30 @@ section{ /*formats main text section */
 }
 
 
+
+
 h2{
   color: #ED6A5A;
   font-family: "Raleway";
   font-size: 30px;
 }
+
+
 p{
    font-family: "Raleway";
    color: black;
    line-height: 50px;
    font-size: 15px;
+} /* ---HOME SECTION--- */
+
+
+
+
+#home h1.title{ /*banner with new logo*/
+   background-image: url("imgs/clouds.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
 }
-
-
-
-
-
-
-/* ---HOME SECTION--- */
 
 
 #home{
@@ -106,6 +83,8 @@ p{
    margin: 0px;
 
 
+
+
    main{
        display: flex;
        flex-direction: column;
@@ -113,9 +92,13 @@ p{
 }
 
 
+
+
 #home li>a[href="index.html"]{ /* indicates that user is on home page (in nav bar) */
   font-weight: bold;
 }
+
+
 
 
 aside{ /*formats media section*/
@@ -130,20 +113,21 @@ aside{ /*formats media section*/
 }
 
 
+
+
 aside::before{ /*formats "Follow Us" text*/
   content: "Follow us!";
   font-size: 55px;
   font-family: "Rock Salt";
-}
-
-
-
-
-img[alt="Facebook"]{ /*formats insta logo*/
+} img[alt="Facebook"]{ /*formats insta logo*/
   background-color: rgb(24, 119, 242);
   border-radius: 50px;
   height: 100px;
 }
+
+
+
+
 
 
 
@@ -157,11 +141,17 @@ img[alt="Instagram"]{ /*formats fb logo*/
 
 
 
+
+
+
+
 #inspiration{
    width: 90%;
    margin-left: 5%;
    margin-top: 0;
    margin-bottom: 5%;
+
+
 
 
    p{
@@ -177,6 +167,10 @@ img[alt="Instagram"]{ /*formats fb logo*/
 
 
 
+
+
+
+
 #mission{
    p:nth-child(3){
        margin-bottom: 5%;
@@ -186,6 +180,8 @@ img[alt="Instagram"]{ /*formats fb logo*/
        border-radius: 50px;
 
 
+
+
        text-align: center;
        font-family: "DynaPuff";
        color: #129997;
@@ -193,11 +189,17 @@ img[alt="Instagram"]{ /*formats fb logo*/
        line-height: 40px;
 
 
+
+
        background-image: url(imgs/clouds.jpg);
        background-repeat: no-repeat;
        background-size: 200%;
    }
 }
+
+
+
+
 
 
 
@@ -216,6 +218,10 @@ img[alt="Instagram"]{ /*formats fb logo*/
 
 
 
+
+
+
+
 #allDonation{ /*clear HTML decorations*/
   font-weight: normal;
   font-family: "Raleway";
@@ -224,12 +230,16 @@ img[alt="Instagram"]{ /*formats fb logo*/
 }
 
 
+
+
 #dollyDonation{ /*clear HTML decorations*/
   font-weight: normal;
   font-family: "Raleway";
   font-size: 18px;
   margin-bottom: 0px;
 }
+
+
 
 
 #funding{
@@ -243,12 +253,16 @@ img[alt="Instagram"]{ /*formats fb logo*/
   }
 
 
+
+
   address{
      font-style: normal;
      font-family: "Raleway";
      font-size: 15px;
      margin-top: 5%;
      margin-bottom: 5%;
+
+
 
 
      border: 5px rgb(59, 193, 255) solid;
@@ -260,15 +274,21 @@ img[alt="Instagram"]{ /*formats fb logo*/
   }
 
 
+
+
   p:nth-child(5){
      font-weight: bold;
      margin-top: 0px;
   }
 
 
+
+
   p:nth-child(8){
      font-weight: bold;
   }
+
+
 
 
   p:nth-child(9){
@@ -279,7 +299,13 @@ img[alt="Instagram"]{ /*formats fb logo*/
 
 
 
+
+
+
+
 /* ---CHILDCARE--- */
+
+
 
 
 #whyChildcare > div:nth-child(2) > div > ul > li { /* removes text decoration from link*/
@@ -289,6 +315,8 @@ img[alt="Instagram"]{ /*formats fb logo*/
 #childcare li>a[href="childcare.html"]{ /* indicates that user is on preschool page (in nav bar) */
   font-weight: bold;
 }
+
+
 
 
 #childcare{
@@ -310,6 +338,8 @@ img[alt="Instagram"]{ /*formats fb logo*/
 }
 
 
+
+
 #whyChildcare {
   order:3;
 }
@@ -321,10 +351,14 @@ img[alt="Instagram"]{ /*formats fb logo*/
 }
 
 
+
+
 #choseChildcare > div.imgdiv > a > img,  #whyChildcare > div.imgdiv > a > img, #childcareBenefits > div.imgdiv > a > img{
   width: 350px;
   margin-right:10px;
 }
+
+
 
 
 #poviders {
@@ -332,335 +366,276 @@ img[alt="Instagram"]{ /*formats fb logo*/
 }
 
 
+
+
 /* ---ACTIVITIES SECTION--- */
 
 
 #activities{
-  display:flex;
-  flex-direction:column;
-  flex-shrink: 0;
-  margin: 0px;
-
-
-  main{
-      display: flex;
-      flex-direction: column;
-  }
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
 }
 
 
 #activities aside{ /*remove extra spacing on top*/
-  display: none;
-}
-
-
-
-
-#activities li>a[href="activities.html"]{ /* indicates that user is on home page (in nav bar) */
-   font-weight: bold;
-}
-
-
-
-
-/* programs section of activities page */
-
-
-
-
-#programs::before{ /*top text*/
-  align-self: center;
-  content: "We have TWO free programs for families of children aged birth to five in Boyle and Mercer Counties:";
-  font-size: 30px;
-  font-weight: bold;
-  font-family: "Raleway";
-  color: rgb(48, 112, 149);
-  margin-bottom: 50px;
-  width: 1050px;
-  line-height: 50px;
-}
-
-
-
-
-
-
-
-
-#ready4k > div:nth-child(2){/*FIX TH9IS */
-  width: 550px;
-}
-
-
-
-
-
-
-
-
-#programs > h2{
-  display: none;
-}
-
-
-#programs{ /*main container*/
-  display:flex;
-  flex-direction:column;
-  margin: 0px;
-  justify-content: center;
-}
-
-
-
-
-#programs .imgwrapper{ /*elements of container*/
-  margin: auto;
-  width: 1500px;
-
-
-  align-self: center;
-  display: flex;
-  flex-direction: row;
-  align-content: centre;
-}
-
-
-img[alt="Dolly Parton Imagination Library logo"]{
-  height: 500px;
-}
-
-
-img[alt="Parent Powered logo"]{
-  height: 500px;
-}
-
-
-#dolly{ /*dolly list buttons*/
-  margin-right: 100px;
-  margin-left: 150px;
-  ul{
-      list-style-type: none;
-      *{
-          margin: 10px;
-          border-radius: 5px;
-          width: 400px;
-          padding: 5px;
-
-
-          text-align: center;
-          text-decoration: none;
-          font-family: Arial, Helvetica, sans-serif;
-
-
-          color: white;
-          background-color: rgb(48, 112, 149);
-      }
-  }
-}
-
-
-#ready4k{ /*ready4k list buttons*/
-  ul{
-      list-style-type: none;
-      *{
-          margin: 10px;
-          border-radius: 5px;
-          width: 400px;
-          padding: 5px;
-
-
-          text-align: center;
-          text-decoration: none;
-          font-family: Arial, Helvetica, sans-serif;
-
-
-          color: white;
-          background-color: rgb(48, 112, 149);
-      }
-  }
-}
-
-
-#dolly .video iframe { /*set frame size for dolly video*/
-  height: 300px;
-}
-
-
-#ready4k .video iframe { /*set frame size for ready4k video*/
-  width: 550px;
-  height: 300px;
-}
-
-
-#programs > div.note{ /*ending note*/
-   width: 60%;
-   margin-top: 50px;
-   margin-bottom: 25px;
-
-
+   display: none;
+ }
+ 
+ 
+ #activities li>a[href="activities.html"]{ /* indicates that user is on home page (in nav bar) */
+    font-weight: bold;
+ }
+ 
+ 
+ 
+ 
+ /* programs section of activities page */
+ 
+ 
+ 
+ 
+ #programs::before{ /*top text*/
    align-self: center;
+   content: "We have TWO free programs for families of children aged birth to five in Boyle and Mercer Counties:";
+   font-size: 30px;
+   font-weight: bold;
    font-family: "Raleway";
    color: rgb(48, 112, 149);
-
-
-   font-weight: bold;
-   font-size: 24pt;
+   margin-bottom: 50px;
+   width: 1050px;
    line-height: 50px;
-}
-
-
-/* at home section of activities page */
-
-
-#AtHome img{ /* resize all logos */
-  width: 225px;
-}
-
-
-#AtHome{
-margin-top: 70px;
-
-
-.imgwrapper{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 50px;
-
-
-  ul{
-     list-style-type: none;
-     font-family: Arial, Helvetica, sans-serif;
-     padding-left: 0px;
-     text-align: center;
-     width: 250px;
-  }
-
-
-  .imggroup.short{
-     width: 235px;
-     p{
-        text-align: center;
-     }
-  }
-}
-}
-
-
-/* kids-parents section of activities page */
-
-
-#kids-and-parents img{ /* resize all logos */
-     width: 225px;
-}
-
-
-
-
-#kids-and-parents{
-  margin-top: 70px;
-
-
-
-
-  .imgwrapper{
-     display: flex;
-     flex-wrap: wrap;
-     gap: 50px;
-
-
-
-
-
-
-
-
-     ul{
-        list-style-type: none;
-        font-family: Arial, Helvetica, sans-serif;
-        padding-left: 0px;
-        text-align: center;
-        width: 250px;
-     }
-
-
-
-
-
-
-
-
-     .imggroup.short{
-        width: 235px;
-        p{
+ }
+ 
+ #ready4k > div:nth-child(2){/*FIX TH9IS */
+   width: 550px;
+ }
+ 
+ #programs > h2{
+   display: none;
+ }
+ 
+ 
+ #programs{ /*main container*/
+   display:flex;
+   flex-direction:column;
+   margin: 0px;
+   justify-content: center;
+ }
+ 
+ 
+ 
+ 
+ #programs .imgwrapper{ /*elements of container*/
+   margin: auto;
+   width: auto;
+ 
+ 
+   align-self: center;
+   display: flex;
+   flex-direction: row;
+   align-content: centre;
+ }
+ 
+ 
+ img[alt="Dolly Parton Imagination Library logo"]{
+   height: 500px;
+ }
+ 
+ 
+ img[alt="Parent Powered logo"]{
+   height: 500px;
+ }
+ 
+ 
+ #dolly{ /*dolly list buttons*/
+   ul{
+       list-style-type: none;
+       *{
+           margin: 10px;
+           border-radius: 5px;
+           padding: 5px;
+ 
+ 
            text-align: center;
-        }
-     }
-  }
-}
-
-
-
-
-/* kids adevntures section of activities page */
-
-
-
-
-#kidAdventues img{ /* resize all logos */
-  width: 225px;
-}
-
-
-
-
-#kidAdventues{
-  margin-top: 70px;
-
-
-
-
-  .imgwrapper{
-     display: flex;
-     flex-wrap: wrap;
-     gap: 50px;
-
-
-
-
-     ul{
-        list-style-type: none;
-        font-family: Arial, Helvetica, sans-serif;
-        padding-left: 0px;
-        text-align: center;
-        width: 250px;
-     }
-
-
-
-
-     .imggroup.short{
-        width: 235px;
-        p{
+           text-decoration: none;
+           font-family: Arial, Helvetica, sans-serif;
+ 
+ 
+           color: white;
+           background-color: rgb(48, 112, 149);
+       }
+   }
+ }
+ 
+ 
+ #ready4k{ /*ready4k list buttons*/
+   ul{
+       list-style-type: none;
+       *{
+           margin: 10px;
+           border-radius: 5px;
+           padding: 5px;
+ 
+ 
            text-align: center;
-        }
-     }
-  }
+           text-decoration: none;
+           font-family: Arial, Helvetica, sans-serif;
+ 
+ 
+           color: white;
+           background-color: rgb(48, 112, 149);
+       }
+   }
+ }
+ 
+ 
+ #dolly .video iframe { /*set frame size for dolly video*/
+   height: 300px;
+ }
+ 
+ 
+ #ready4k .video iframe { /*set frame size for ready4k video*/
+   width: 550px;
+   height: 300px;
+ }
+ 
+ 
+ #programs > div.note{ /*ending note*/
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 25px;
+ 
+ 
+    align-self: center;
+    font-family: "Raleway";
+    color: rgb(48, 112, 149);
+ 
+ 
+    font-weight: bold;
+    font-size: 24pt;
+    line-height: 50px;
+ }
+ 
+ 
+ /* at home section of activities page */
+ 
+ 
+ #AtHome img{ /* resize all logos */
+   width: 225px;
+
+
+ }#AtHome{
+ margin-top: 70px;
+ 
+ .imgwrapper{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 50px;
+ 
+   ul{
+      list-style-type: none;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-left: 0px;
+      text-align: center;
+      width: 250px;
+   }
+ 
+   .imggroup.short{
+      width: 235px;
+      p{
+         text-align: center;
+      }
+   }
+ }
+ }
+ 
+ /* kids-parents section of activities page */
+ 
+ #kids-and-parents img{ /* resize all logos */
+      width: 225px;
+ }
+ 
+ #kids-and-parents{
+   margin-top: 70px;
+
+
+   .imgwrapper{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 50px;
+
+
+      ul{
+         list-style-type: none;
+         font-family: Arial, Helvetica, sans-serif;
+         padding-left: 0px;
+         text-align: center;
+         width: 250px;
+      }
+
+
+      .imggroup.short{
+         width: 235px;
+         p{
+            text-align: center;
+         }
+      }
+   }
+ }
+ 
+ 
+ 
+ 
+ /* kids adevntures section of activities page */
+ 
+ 
+ 
+ 
+ #kidAdventues img{ /* resize all logos */
+   width: 225px;
+ }
+ 
+ 
+ 
+ 
+ #kidAdventues{
+   margin-top: 70px;
+ 
+ 
+ 
+ 
+   .imgwrapper{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 50px;
+ 
+ 
+ 
+ 
+      ul{
+         list-style-type: none;
+         font-family: Arial, Helvetica, sans-serif;
+         padding-left: 0px;
+         text-align: center;
+         width: 250px;
+      }
+ 
+ 
+ 
+ 
+      .imggroup.short{
+         width: 235px;
+         p{
+            text-align: center;
+         }
+      }
+   }
 }
-
-
-
-
-
-
+ 
 
 
 /* ---SUPPORT SECTION--- */
-
-
-
-
-
-
 
 
 #support li>a[href="support.html"]{ /* indicates that user is on home page (in nav bar) */
@@ -668,9 +643,13 @@ margin-top: 70px;
 }
 
 
+
+
 #support aside{
   display: none;
 }
+
+
 
 
 #newParents img{ /* resize all logos */
@@ -678,87 +657,9 @@ margin-top: 70px;
 }
 
 
+
+
 #newParents{
-  margin-top: 70px; 
-
-
-
-
-  .imgwrapper{
-     display: flex;
-     flex-wrap: wrap;
-     gap: 50px; 
-
-
-
-
-     ul{
-        list-style-type: none;
-        font-family: Arial, Helvetica, sans-serif;
-        padding-left: 0px;
-        text-align: center;
-        width: 250px;
-     } 
-
-
-
-
-     .imggroup.short{
-        width: 235px;
-        p{
-           text-align: center;
-        }
-     }
-  }
-}
-
-
-#theraphy img{ /* resize all logos */
-  width: 225px;
-}
-
-
-#theraphy{
-  margin-top: 70px; 
-
-
-
-
-  .imgwrapper{
-     display: flex;
-     flex-wrap: wrap;
-     gap: 50px; 
-
-
-
-
-     ul{
-        list-style-type: none;
-        font-family: Arial, Helvetica, sans-serif;
-        padding-left: 0px;
-        text-align: center;
-        width: 250px;
-     } 
-
-
-
-
-     .imggroup.short{
-        width: 235px;
-        p{
-           text-align: center;
-        }
-     }
-  }
-}
-
-
-#caregivers img{ /* resize all logos */
-  width: 225px;
-}
-
-
-#caregivers{
   margin-top: 70px;
 
 
@@ -807,11 +708,101 @@ margin-top: 70px;
 
 
 
+#theraphy img{ /* resize all logos */
+  width: 225px;
+}
 
 
+
+
+#theraphy{
+  margin-top: 70px;
+
+
+
+
+
+
+
+
+  .imgwrapper{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 50px;
+
+
+
+
+
+
+
+
+     ul{
+        list-style-type: none;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 0px;
+        text-align: center;
+        width: 250px;
+     }
+
+
+
+
+
+
+
+
+     .imggroup.short{
+        width: 235px;
+        p{
+           text-align: center;
+        }
+     }
+  }
+}
+
+
+
+
+#caregivers img{ /* resize all logos */
+  width: 225px;
+}
+
+
+
+
+#caregivers{
+  margin-top: 70px;
+
+
+  .imgwrapper{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 50px;
+
+
+     ul{
+        list-style-type: none;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 0px;
+        text-align: center;
+        width: 250px;
+     }
+
+
+     .imggroup.short{
+        width: 235px;
+        p{
+           text-align: center;
+        }
+     }
+  }
+}
 
 
 /* ---PRESCHOOL SECTION--- */
+
+
 
 
 #preschool{
@@ -819,9 +810,13 @@ margin-top: 70px;
 }
 
 
+
+
 #preschool aside{
    display: none;
 }
+
+
 
 
 #preschool li>a[href="preschool.html"]{ /* indicates that user is on preschool page (in nav bar) */
@@ -829,9 +824,13 @@ margin-top: 70px;
 }
 
 
+
+
 #preschool img{ /* resize all logos */
    width: 225px;
 }
+
+
 
 
 #preschool main ul, #preschool .phone{
@@ -843,10 +842,14 @@ margin-top: 70px;
 }
 
 
+
+
 #headStartPre{ /* head Start section */
    display: flex;
    flex-wrap: row-wrap;
    gap: 100px;
+
+
 
 
    p{
@@ -857,10 +860,14 @@ margin-top: 70px;
 }
 
 
+
+
 #preschool .imgwrapper{
   display: flex;
   gap: 100px;
 }
+
+
 
 
 #PrivatePreschool{
@@ -868,13 +875,9 @@ margin-top: 70px;
 }
 
 
+
+
 /* ---COCERNS SECTION--- */
-
-
-
-
-
-
 
 
 #concerns li>a[href="concerns.html"]{ /* indicates that user is on preschool page (in nav bar) */
@@ -882,23 +885,11 @@ margin-top: 70px;
 }
 
 
-
-
-
-
-
-
 #AddressConcerns{
   margin-top: 70px;
   display: flex;
   flex-direction: column;
   gap: 50px;
-
-
-
-
-
-
 
 
   .imgwrapper{
@@ -910,12 +901,6 @@ margin-top: 70px;
      width:1400px;
 
 
-
-
-
-
-
-
      ul{
         list-style-type: none;
         font-family: Arial, Helvetica, sans-serif;
@@ -923,12 +908,6 @@ margin-top: 70px;
         text-align: center;
         width: 250px;
      }
-
-
-
-
-
-
 
 
      .imggroup.long div{
@@ -941,12 +920,6 @@ margin-top: 70px;
      }
   }
 }
-
-
-
-
-
-
 
 
 #age03 > div:nth-child(2){
@@ -964,23 +937,11 @@ margin-top: 70px;
 }
 
 
-
-
-
-
-
-
 #age36 > div:nth-child(2) *{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-
-
-
-
-
 
 
 #age36 > div:nth-child(2) > p:nth-child(1)::before{
@@ -989,16 +950,16 @@ margin-top: 70px;
   text-decoration: underline;
 
 
-
-
-
-
-
-
   font-size: 23pt;
   color: rgb(48, 112, 149);
   margin-bottom: 20px;
 }
+
+
+
+
+
+
 
 
 
