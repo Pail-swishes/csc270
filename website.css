@@ -7,10 +7,6 @@ img.logo{ /*clear old logo*/
 }
 
 
-header{
-   width: auto;
-}
-
 
 h1.title{
   padding: 100px;
@@ -73,11 +69,7 @@ p{
 
 
 
-#home h1.title{ /*banner with new logo*/
-   background-image: url("imgs/clouds.jpg");
-   background-size: cover;
-   background-repeat: no-repeat;
-}
+
 
 body{
    margin: 0px;
@@ -166,7 +158,7 @@ img[alt="Instagram"]{ /*formats fb logo*/
    p:nth-child(3){
        margin-bottom: 5%;
        margin-top: 5%;
-       padding: 50px;
+       padding: 8%;
        border: 5px #129997 solid;
        border-radius: 50px;
 
@@ -175,16 +167,16 @@ img[alt="Instagram"]{ /*formats fb logo*/
 
        text-align: center;
        font-family: "DynaPuff";
-       color: #129997;
-       font-size: 22px;
+       color: white;
+       font-size: 200%;
        line-height: 40px;
 
 
 
 
-       background-image: url(imgs/clouds.jpg);
+       background-image: url(imgs/clouds2.jpg);
        background-repeat: no-repeat;
-       background-size: 200%;
+       background-size: 250%;
    }
 }
 
@@ -278,8 +270,52 @@ img[alt="Instagram"]{ /*formats fb logo*/
 
 /* ---CHILDCARE--- */
 
+#home h1.title{ /*banner with new logo*/
+   background-image: url("imgs/HeartofKYWebLogo.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   color:white;
+}
+
+#childcare h1.title{ /*banner with new logo*/
+   background-image: url("imgs/childcare.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+#activities h1.title{ /*banner with new logo*/
+   background-image: url("imgs/activities2.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+#support h1.title{ /*banner with new logo*/
+   background-image: url("imgs/concerns.jpeg");
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+#preschool h1.title{ /*banner with new logo*/
+   background-image: url("imgs/preschool.jpeg");
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+#concerns h1.title{ /*banner with new logo*/
+   background-image: url("imgs/support2.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+#home header h1, #childcare header h1, #activities header h1, #support header h1, #preschool header h1, #concerns h1.title{
+   color: white;
+   font-size: 500%;
+}
 
 
+body > header h1{
+   color: white;
+   font-size: 500%;
+}
 
 #whyChildcare > div:nth-child(2) > div > ul > li { /* removes text decoration from link*/
   list-style-type: none;
