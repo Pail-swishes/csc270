@@ -504,13 +504,22 @@ body > header h1{
    }
  
    .imggroup.short{
-
       align-self: center;
       text-align: center;
 
    }
    }
  }
+
+
+ #activities .imggroup.short, #support .imggroup.short{
+   padding:5%;
+   border:2px black solid;
+   margin:5%;
+   align-self: center;
+   text-align: center;
+
+}
 
  #preschool main .imgwrapper{
    gap:2%;
