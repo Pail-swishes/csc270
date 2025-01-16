@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap');
+
+body{
+
+    background-color: whitesmoke;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+
+body *
+
+{
+
+    border:1px solid black; 
+
+}
+
+body > header > nav {
+    background-color: black;
+    position:fixed;
+    top:0px;
+    right:10px;
+    width:100%;
+    font-size:larger;
+
+}
+header{
+
+    display:flex;
+
+    flex-direction: column-reverse;
+
+    height: auto; 
+    
+
+}
+aside{
+    align-self: center;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 350px
+}
+
+aside::before{
+    content: "Follow us!";
+    font-family: "Rock Salt";
+    font-size: 50px;
+}
+
+nav ul{
+
+    background-color: black;
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:30px;
+
+    border:0px;
+
+    justify-content: flex-end;
+
+    list-style-type: none;
+
+    margin-right:10px;
+    
+    
+
+}
+
+nav ul *{
+
+    border:0px;
+    color:white;
+    text-decoration: none;
+
+
+}
+
+img.logo{
+
+    display: none;
+
+}
+
+h1.title{
+
+    background-image: url("imgs/HeartofKYWebLogo.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:400px;
+    color:white;
+    font-family: "Rock Salt";
+    text-align: center;
+    padding-top:150px;
+    font-size: 80px;
+}
+
+aside{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:15px
+    
+}
+aside *{
+    border-radius: 50px;
+    height:50px;
+}
+img[alt="Facebook"]{
+    background-color: rgb(24,119,242);
+    grid-area: Facebook;
+    
+}
+img[alt="Instagram"]{
+    background-color: rgb(255,0,64);
+    grid-area: Instagram;
+}
+
+#inspiration{
+    font-family: "Raleway";
+    text-align: center;
+    font-size:32pt;
+    color:rgb(48,112,149);
+    font-weight: bold;
+}
+
+h2{
+    color:rgb(0, 114, 153);
+    font-size: 32px;
+    font-family: "Raleway";
+}
+p{
+    font-size:16px;
+}
+main {
+    margin-left:15%;
+    margin-right:15%;
+}
