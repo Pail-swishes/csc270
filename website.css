@@ -386,7 +386,9 @@ img[alt="Instagram"]{ /*formats fb logo*/
    display:flex;
    flex-direction: column;
    flex-wrap: wrap;
-   width:95%
+   width:95%;
+   margin-left: 5%;
+   margin-right: 5%;
  }
  
  
@@ -398,7 +400,6 @@ img[alt="Instagram"]{ /*formats fb logo*/
    font-family: "Raleway";
    color: rgb(48, 112, 149);
    margin-bottom: 50px;
-   width: 95%;
    line-height: 50px;
  }
  
@@ -413,7 +414,6 @@ img[alt="Instagram"]{ /*formats fb logo*/
    flex-direction:column;
    margin: 0px;
    justify-content: center;
-   width: 95%;
  }
  
  
@@ -462,148 +462,77 @@ img[alt="Instagram"]{ /*formats fb logo*/
  
  
  
- #dolly .video iframe { /*set frame size for dolly video*/
-   height: 300px;
+ #dolly .video iframe, #ready4k .video iframe { /*set frame size for dolly video*/
+   width:650px;
+   height: 400px;
  }
- 
- 
- #ready4k .video iframe { /*set frame size for ready4k video*/
-   width: 550px;
-   height: 300px;
- }
- 
  
  #programs > div.note{ /*ending note*/
-    width: 60%;
+
     margin-top: 50px;
     margin-bottom: 25px;
  
  
-    align-self: center;
+    align-self: left;
     font-family: "Raleway";
     color: rgb(48, 112, 149);
  
  
     font-weight: bold;
-    font-size: 24pt;
-    line-height: 50px;
+    font-size: large;
  }
  
  
  /* at home section of activities page */
  
  
- #AtHome img{ /* resize all logos */
+ /*#AtHome img{ /* resize all logos
    width: 225px;
+ }*/
+   
+ #AtHome, #kids-and-parents, #kidAdventues{
 
-
- }#AtHome{
  margin-top: 70px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+
  
  .imgwrapper{
    display: flex;
    flex-wrap: wrap;
-   gap: 50px;
+   gap: 10%;
+   align-self: center;
  
    ul{
       list-style-type: none;
       font-family: Arial, Helvetica, sans-serif;
       padding-left: 0px;
       text-align: center;
-      width: 250px;
    }
  
    .imggroup.short{
-      width: 235px;
-      p{
-         text-align: center;
-      }
+      align-self: center;
+      text-align: center;
+
    }
  }
  }
  
  /* kids-parents section of activities page */
  
- #kids-and-parents img{ /* resize all logos */
-      width: 225px;
+ #kids-and-parents img, #kidAdventues img{ /* resize all logos */
+      width: 30%;
  }
  
- #kids-and-parents{
-   margin-top: 70px;
 
-
-   .imgwrapper{
-      display: flex;
-      flex-wrap: wrap;
-      gap: 50px;
-
-
-      ul{
-         list-style-type: none;
-         font-family: Arial, Helvetica, sans-serif;
-         padding-left: 0px;
-         text-align: center;
-         width: 250px;
-      }
-
-
-      .imggroup.short{
-         width: 235px;
-         p{
-            text-align: center;
-         }
-      }
-   }
- }
  
  
  
  
  /* kids adevntures section of activities page */
  
- 
- 
- 
- #kidAdventues img{ /* resize all logos */
-   width: 225px;
- }
- 
- 
- 
- 
- #kidAdventues{
-   margin-top: 70px;
- 
- 
- 
- 
-   .imgwrapper{
-      display: flex;
-      flex-wrap: wrap;
-      gap: 50px;
- 
- 
- 
- 
-      ul{
-         list-style-type: none;
-         font-family: Arial, Helvetica, sans-serif;
-         padding-left: 0px;
-         text-align: center;
-         width: 250px;
-      }
- 
- 
- 
- 
-      .imggroup.short{
-         width: 235px;
-         p{
-            text-align: center;
-         }
-      }
-   }
-}
  
 
 
