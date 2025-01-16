@@ -433,11 +433,14 @@ img[alt="Instagram"]{ /*formats fb logo*/
  }
 
  
- 
+ div > p {
+   text-align: left;
+   font-size:200%;
+ }
  
 
  
- #dolly{ /*dolly list buttons*/
+ #dolly, #ready4k{ /*dolly list buttons*/
    ul{
        list-style-type: none;
        *{
@@ -457,26 +460,6 @@ img[alt="Instagram"]{ /*formats fb logo*/
    }
  }
  
- 
- #ready4k{ /*ready4k list buttons*/
-   ul{
-       list-style-type: none;
-       *{
-           margin: 10px;
-           border-radius: 5px;
-           padding: 5px;
- 
- 
-           text-align: center;
-           text-decoration: none;
-           font-family: Arial, Helvetica, sans-serif;
- 
- 
-           color: white;
-           background-color: rgb(48, 112, 149);
-       }
-   }
- }
  
  
  #dolly .video iframe { /*set frame size for dolly video*/
