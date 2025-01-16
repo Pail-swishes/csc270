@@ -47,10 +47,10 @@ nav{ /*positioning nav bar*/
       display:flex;
       justify-content: center;
       list-style-type: none;
+      flex-wrap:wrap;
 
 
-      gap:5%;
-      margin:2%; 
+      justify-content: space-evenly;
 
       background-color: black;
       font-family: Arial, Helvetica, sans-serif;
