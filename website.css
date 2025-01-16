@@ -309,6 +309,7 @@ img[alt="Instagram"]{ /*formats fb logo*/
 #home header h1, #childcare header h1, #activities header h1, #support header h1, #preschool header h1, #concerns h1.title{
    color: white;
    font-size: 500%;
+   text-align: center;
 }
 
 
@@ -485,7 +486,6 @@ body > header h1{
  
  #activities main, #support main, #preschool main, #concerns main {
 
- margin-top: 70px;
  display: flex;
  flex-direction: column;
 
