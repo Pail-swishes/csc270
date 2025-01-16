@@ -26,15 +26,7 @@ h1.title{
 
 
 
-body{
-  margin: 0px;
-  background-color: white;
 
-
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
 
 
 nav{ /*positioning nav bar*/
@@ -70,8 +62,6 @@ nav{ /*positioning nav bar*/
 
 
 section{ /*formats main text section */
-   margin-left:10%;
-   margin-right: 10%;
 }
 
 
@@ -80,15 +70,13 @@ section{ /*formats main text section */
 h2{
   color: #ED6A5A;
   font-family: "Raleway";
-  font-size: 30px;
+  font-size: 240%;
 }
 
 
 p{
    font-family: "Raleway";
    color: black;
-   line-height: 50px;
-   font-size: 15px;
 } /* ---HOME SECTION--- */
 
 
@@ -100,21 +88,20 @@ p{
    background-repeat: no-repeat;
 }
 
-
-#home{
-   display:flex;
-   flex-direction:column;
-   flex-shrink: 0;
+body{
    margin: 0px;
-
-
-
-
+   background-color: white;
+ 
+   width:95%;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
    main{
        display: flex;
        flex-direction: column;
    }
 }
+
 
 
 
@@ -308,25 +295,6 @@ img[alt="Instagram"]{ /*formats fb logo*/
 
 
 
-#childcare{
-  display:flex;
-  flex-direction:column;
-  margin: 0px;
-  justify-content: center;
-  border: 2px;
-   div > div {
-   background-color: white;
-   margin-bottom: 10px;
-   border-radius: 15%;
-  }
-}
- body > main > div {
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-
 
 
 #whyChildcare {
@@ -360,12 +328,6 @@ img[alt="Instagram"]{ /*formats fb logo*/
 /* ---ACTIVITIES SECTION--- */
 
 
-#activities{
-   display: flex;
-   flex-direction: column;
-   flex-wrap: wrap;
-   width:95%
-}
 
 
 #activities aside{ /*remove extra spacing on top*/
@@ -763,7 +725,7 @@ img[alt="Instagram"]{ /*formats fb logo*/
      justify-content: center;
      flex-wrap: wrap;
      gap: 50px;
-     width:1400px;
+     width:100%;
 
 
      ul{
