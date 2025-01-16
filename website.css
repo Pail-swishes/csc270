@@ -54,7 +54,6 @@ nav{ /*positioning nav bar*/
        }
    }
   }
- 
 
 
 
@@ -443,12 +442,18 @@ img[alt="Instagram"]{ /*formats fb logo*/
    }
  
    .imggroup.short{
+
       align-self: center;
       text-align: center;
 
    }
    }
  }
+
+ #preschool main .imgwrapper{
+   gap:2%;
+ }
+
 
  #AddressConcerns{
       .imggroup.long div{
@@ -463,18 +468,12 @@ img[alt="Instagram"]{ /*formats fb logo*/
 
  #preschool main .imgwrapper .imggroup.short {
    width:40%;
+   margin-bottom: 5%;
+   img {
+      width:50%;
+   }
  } 
- 
- /* kids-parents section of activities page */
- 
 
- 
-
- 
- 
- 
- 
- /* kids adevntures section of activities page */
  
  
 
