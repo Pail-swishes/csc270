@@ -26,9 +26,6 @@ h1.title{
 
 
 
-
-
-
 nav{ /*positioning nav bar*/
    top: 0px;
    position: fixed;
@@ -58,12 +55,6 @@ nav{ /*positioning nav bar*/
    }
   }
  
- 
-
-
-section{ /*formats main text section */
-}
-
 
 
 
@@ -96,10 +87,7 @@ body{
    display: flex;
    flex-direction: column;
    flex-wrap: wrap;
-   main{
-       display: flex;
-       flex-direction: column;
-   }
+
 }
 
 
@@ -293,34 +281,15 @@ img[alt="Instagram"]{ /*formats fb logo*/
 }
 
 
-
-
-
-
-#whyChildcare {
-  order:3;
+.imggroup.long img{
+  width: 30%;
+  margin-right:5%;
 }
- #choseChildcare, #childcareBenefits, #whyChildcare{
-  margin: auto;
-  width: 1200px;
-  align-self: center;
-  display: flex;
-}
-
-
-
-
-#choseChildcare > div.imgdiv > a > img,  #whyChildcare > div.imgdiv > a > img, #childcareBenefits > div.imgdiv > a > img{
-  width: 350px;
-  margin-right:10px;
-}
-
-
-
 
 #poviders {
-  margin-left: 320px;
-}
+   align-self: center;
+ } 
+
 
 
 
@@ -352,7 +321,6 @@ img[alt="Instagram"]{ /*formats fb logo*/
    margin-left: 5%;
    margin-right: 5%;
  }
- 
  
  #programs::before{ /*top text*/
    align-self: center;
@@ -447,11 +415,6 @@ img[alt="Instagram"]{ /*formats fb logo*/
  
  /* at home section of activities page */
  
- 
- /*#AtHome img{ /* resize all logos
-   width: 225px;
- }*/
-   
  #AtHome, #kids-and-parents, #kidAdventues{
 
  margin-top: 70px;
