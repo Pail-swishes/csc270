@@ -308,8 +308,7 @@ img[alt="Instagram"]{ /*formats fb logo*/
 
 #home header h1, #childcare header h1, #activities header h1, #support header h1, #preschool header h1, #concerns h1.title{
    color: white;
-   font-size: 500%;
-   text-align: center;
+   font-size: 400%;
 }
 
 
@@ -321,7 +320,9 @@ body > header h1{
 #whyChildcare > div:nth-child(2) > div > ul > li { /* removes text decoration from link*/
   list-style-type: none;
   margin-left: -42px;
+  
 }
+
 #childcare li>a[href="childcare.html"]{ /* indicates that user is on preschool page (in nav bar) */
   font-weight: bold;
 }
@@ -330,6 +331,9 @@ body > header h1{
 .imggroup.long img{
   width: 30%;
   margin-right:5%;
+  padding-top:5%;
+  margin-top:5%;
+  border-top:2px black dashed;
 }
 
 #poviders {
