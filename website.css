@@ -364,6 +364,7 @@ img[alt="Instagram"]{ /*formats fb logo*/
    display: flex;
    flex-direction: column;
    flex-wrap: wrap;
+   width:95%
 }
 
 
@@ -381,7 +382,12 @@ img[alt="Instagram"]{ /*formats fb logo*/
  
  /* programs section of activities page */
  
- 
+ main{
+   display:flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   width:95%
+ }
  
  
  #programs::before{ /*top text*/
@@ -392,13 +398,10 @@ img[alt="Instagram"]{ /*formats fb logo*/
    font-family: "Raleway";
    color: rgb(48, 112, 149);
    margin-bottom: 50px;
-   width: 1050px;
+   width: 95%;
    line-height: 50px;
  }
  
- #ready4k > div:nth-child(2){/*FIX TH9IS */
-   width: 550px;
- }
  
  #programs > h2{
    display: none;
@@ -410,32 +413,29 @@ img[alt="Instagram"]{ /*formats fb logo*/
    flex-direction:column;
    margin: 0px;
    justify-content: center;
+   width: 95%;
  }
- 
- 
  
  
  #programs .imgwrapper{ /*elements of container*/
-   margin: auto;
-   width: auto;
- 
- 
-   align-self: center;
    display: flex;
+   flex-wrap: wrap;
+   align-self: center;
    flex-direction: row;
-   align-content: centre;
+   align-content: center;
+   text-align: center;
+   margin:5px;
+
+   img[alt="Dolly Parton Imagination Library logo"], img[alt="Parent Powered logo"]{
+      height: 200px;
+    }
+
  }
+
  
  
- img[alt="Dolly Parton Imagination Library logo"]{
-   height: 500px;
- }
  
- 
- img[alt="Parent Powered logo"]{
-   height: 500px;
- }
- 
+
  
  #dolly{ /*dolly list buttons*/
    ul{
