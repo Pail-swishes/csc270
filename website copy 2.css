@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap');
+
+
+
+
+img.logo{ /*clear old logo*/
+   display: none;
+}
+
+
+h1.title{ /*banner with new logo*/
+   padding: 100px;
+   height: 200px;
+
+
+   color: white;
+   font-family: "Rock Salt";
+   font-size: 60px;
+   text-align: center;
+
+
+   background-image: url("imgs/HeartofKYWebLogo.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+
+nav{ /*positioning nav bar*/
+   top: 0px;
+   position: fixed;
+   width: 100%;
+   background-color: black;
+
+
+   ul{ /*format nav buttons */
+       display:flex;
+       justify-content: end;
+       list-style-type: none;
+
+
+       gap:30px;
+       margin-right:25px;
+
+
+       background-color: black;
+       font-family: Arial, Helvetica, sans-serif;
+
+
+       *{
+           border:0px;
+           color:white;
+           text-decoration: none;
+       }
+   }
+}
+
+
+a{ /*turns all links to theme color*/
+   color: rgb(48, 112, 149);
+}
+
+
+
+
+/* ---HOME SECTION--- */
+
+
+#home{
+   background-color: white;
+   display:flex;
+   flex-direction:column;
+   flex-shrink: 0;
+   margin: 0px;
+}
+
+
+#home li>a[href="index.html"]{ /* indicates that user is on home page (in nav bar) */
+   font-weight: bold;
+}
+
+
+#home aside{ /*formats media section*/
+   align-self: center;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 0px 25px;
+   width: 350px;
+   height: 200px;
+}
+
+
+#home aside::before{ /*formats "Follow Us" text*/
+   content: "Follow us!";
+   font-size: 50px;
+   font-family: "Rock Salt";
+}
+
+
+#home img[alt="Facebook"]{ /*formats insta logo*/
+   background-color: rgb(24, 119, 242);
+   border-radius: 50px;
+   height: 50px;
+}
+
+
+#home img[alt="Instagram"]{ /*formats fb logo*/
+   background-color: rgb(255, 0, 68);
+   border-radius: 50px;
+   height: 50px;
+}
+
+
+#inspiration{
+   font-family: "Raleway";
+   font-weight: bold;
+   font-size: 26pt;
+   text-align: center;
+   color: rgb(48, 112, 149);
+
+
+   margin-bottom: 200px;
+   margin-left:20%;
+   margin-right: 20%;
+}
+
+
+h2{
+   color: rgb(48, 112, 149);
+   font-family: "Raleway";
+   font-size: 30px;
+}
+
+
+p{
+   font-family: "Raleway";
+}
+
+
+section{ /*formats main text section */
+   margin-left:20%;
+   margin-right: 20%;
+   line-height: 30px;
+   font-size: 18px;
+}
+
+
+#mission > p:nth-child(3){
+   font-family: sans-serif;
+   color: rgb(48, 112, 149);
+   text-align: center;
+   font-weight: bold;
+   font-size: 18px;
+   margin-bottom: 100px;
+}
+
+
+#members > p:nth-child(6){
+   margin-bottom: 100px;
+}
+
+
+/* @mixin font-clear{
+   font-weight: normal;
+   font-family: "Raleway";
+   font-size: 18px;
+   margin-bottom: 0px;
+} */
+
+
+#allDonation{ /*clear HTML decorations*/
+   font-weight: normal;
+   font-family: "Raleway";
+   font-size: 18px;
+   margin-bottom: 0px;
+}
+
+
+#dollyDonation{ /*clear HTML decorations*/
+   font-weight: normal;
+   font-family: "Raleway";
+   font-size: 18px;
+   margin-bottom: 0px;
+}
+
+
+address{ /*clear HTML decorations*/
+   font-style: normal;
+   font-family: "Raleway";
+   font-size: 18px;
+}
+
+
+#funding > p:nth-child(5){
+   font-weight: bold;
+   margin-top: 0px;
+}
+
+
+#funding > p:nth-child(8){
+   font-weight: bold;
+}
+
+
+#funding > p:nth-child(9){
+   font-weight: bold;
+}
+
+
+
+
+/* ---ACTIVITIES SECTION--- */
+
+
+#activities aside{
+   display: none;
+}
+
+
+#programs::before{
+   align-self: center;
+   content: "We have TWO free programs for families of children aged birth to five in Boyle and Mercer Counties:";
+   font-size: 30px;
+   font-weight: bold;
+   font-family: "Raleway";
+   color: rgb(48, 112, 149);
+   margin-bottom: 50px;
+   width: 1050px;
+   line-height: 50px;
+}
+
+
+#programs > h2{
+   display: none;
+}
+
+
+#programs{
+   display:flex;
+   flex-direction:column;
+   margin: 0px;
+   justify-content: center;
+}
+
+
+#activities li>a[href="activities.html"]{ /* indicates that user is on home page (in nav bar) */
+   font-weight: bold;
+}
+
+
+#programs .imgwrapper{
+   margin: auto;
+   width: 1500px;
+   border: 2px black solid;
+
+
+   align-self: center;
+   display: flex;
+   flex-direction: row;
+   align-content: centre;
+}
+
+
+
+
+img[alt="Dolly Parton Imagination Library logo"]{
+   height: 500px;
+}
+
+
+img[alt="Parent Powered logo"]{
+   height: 500px;
+}
+
+
+#dolly{
+   margin-right: 100px;
+   margin-left: 150px;
+   ul{
+       list-style-type: none;
+       *{
+           margin: 10px;
+           border-radius: 5px;
+           width: 400px;
+           padding: 5px;
+
+
+           text-align: center;
+           text-decoration: none;
+           font-family: Arial, Helvetica, sans-serif;
+
+
+           color: white;
+           background-color: rgb(48, 112, 149);
+       }
+   }
+}
+
+
+#ready4k{
+   ul{
+       list-style-type: none;
+       *{
+           margin: 10px;
+           border-radius: 5px;
+           width: 400px;
+           padding: 5px;
+
+
+           text-align: center;
+           text-decoration: none;
+           font-family: Arial, Helvetica, sans-serif;
+
+
+           color: white;
+           background-color: rgb(48, 112, 149);
+       }
+   }
+}
+
+
+#dolly .video iframe {
+   height: 300px;
+}
+
+
+#ready4k .video iframe {
+   width: 550px;
+   height: 300px;
+}
+/* ---CHILDCARE--- */
+
+
+
+ #whyChildcare > div:nth-child(2) > div > ul > li { /* removes text decoration from link*/
+    list-style-type: none;
+    margin-left: -42px;
+ }
+
+
+ #childcare{
+    display:flex;
+    flex-direction:column;
+    margin: 0px;
+    justify-content: center;
+    border: 2px;
+
+ }
+
+ 
+ body > main > div {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ #whyChildcare {
+    order:3;
+ }
+
+ 
+ #choseChildcare, #childcareBenefits, #whyChildcare{
+    margin: auto;
+    width: 1200px;
+ 
+    align-self: center;
+    display: flex;
+    
+ }
+ 
+ #choseChildcare > div.imgdiv > a > img,  #whyChildcare > div.imgdiv > a > img, #childcareBenefits > div.imgdiv > a > img{
+    width: 350px;
+    margin-right:10px;
+ }
+ 
+ #poviders {
+    margin-left: 320px;
+ }
