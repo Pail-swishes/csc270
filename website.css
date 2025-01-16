@@ -2,12 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff');
 
 
-
-
-
-
-
-
 img.logo{ /*clear old logo*/
   display: none;
 }
@@ -21,7 +15,6 @@ header{
 h1.title{
   padding: 100px;
   height: 200px;
-  width: 100%;
 
 
   color: #086788;
@@ -36,12 +29,44 @@ h1.title{
 body{
   margin: 0px;
   background-color: white;
-  width: 1180px;
+
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 
+nav{ /*positioning nav bar*/
+   top: 0px;
+   position: fixed;
+   width: 100%;
+   background-color: black;
+ 
+   ul{ /*format nav buttons */
+      display:flex;
+      justify-content: center;
+      list-style-type: none;
 
 
+      gap:10%;
+      margin-right:15px;
+      margin-left:15px;
+ 
+      background-color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: larger;
+
+
+       *{
+           color:white;
+           text-decoration: none;
+           flex-grow: 1;
+       }
+   }
+  }
+ 
+ 
 
 
 section{ /*formats main text section */
@@ -126,23 +151,11 @@ aside::before{ /*formats "Follow Us" text*/
 }
 
 
-
-
-
-
-
-
 img[alt="Instagram"]{ /*formats fb logo*/
   background-color: rgb(255, 0, 68);
   border-radius: 50px;
   height: 100px;
 }
-
-
-
-
-
-
 
 
 #inspiration{
@@ -163,12 +176,6 @@ img[alt="Instagram"]{ /*formats fb logo*/
    color: #129997;
    }
 }
-
-
-
-
-
-
 
 
 #mission{
@@ -198,12 +205,6 @@ img[alt="Instagram"]{ /*formats fb logo*/
 }
 
 
-
-
-
-
-
-
 #members{
   margin-top: 5%;
   order: 2;
@@ -214,12 +215,6 @@ img[alt="Instagram"]{ /*formats fb logo*/
      margin-bottom: 100px;
   }
 }
-
-
-
-
-
-
 
 
 #allDonation{ /*clear HTML decorations*/
@@ -295,12 +290,6 @@ img[alt="Instagram"]{ /*formats fb logo*/
      font-weight: bold;
   }
 }
-
-
-
-
-
-
 
 
 /* ---CHILDCARE--- */
@@ -663,22 +652,10 @@ img[alt="Instagram"]{ /*formats fb logo*/
   margin-top: 70px;
 
 
-
-
-
-
-
-
   .imgwrapper{
      display: flex;
      flex-wrap: wrap;
      gap: 50px;
-
-
-
-
-
-
 
 
      ul{
@@ -688,12 +665,6 @@ img[alt="Instagram"]{ /*formats fb logo*/
         text-align: center;
         width: 250px;
      }
-
-
-
-
-
-
 
 
      .imggroup.short{
@@ -719,22 +690,10 @@ img[alt="Instagram"]{ /*formats fb logo*/
   margin-top: 70px;
 
 
-
-
-
-
-
-
   .imgwrapper{
      display: flex;
      flex-wrap: wrap;
      gap: 50px;
-
-
-
-
-
-
 
 
      ul{
@@ -744,12 +703,6 @@ img[alt="Instagram"]{ /*formats fb logo*/
         text-align: center;
         width: 250px;
      }
-
-
-
-
-
-
 
 
      .imggroup.short{
@@ -954,12 +907,6 @@ img[alt="Instagram"]{ /*formats fb logo*/
   color: rgb(48, 112, 149);
   margin-bottom: 20px;
 }
-
-
-
-
-
-
 
 
 
