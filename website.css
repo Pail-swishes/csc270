@@ -363,21 +363,27 @@ img[alt="Instagram"]{ /*formats fb logo*/
  }
 
  
- div > p {
+ div > p, #PublicPreschool > p {
    text-align: left;
    font-size:200%;
  }
+
  
 
  
  #dolly, #ready4k{ /*dolly list buttons*/
    ul{
+      display:flex;
+      flex-wrap:wrap;
+      
        list-style-type: none;
+       li {
+         width:20%;
+       }
        *{
-           margin: 10px;
+           margin: 2%;
            border-radius: 5px;
-           padding: 5px;
- 
+           padding: 1%; 
  
            text-align: center;
            text-decoration: none;
@@ -415,13 +421,11 @@ img[alt="Instagram"]{ /*formats fb logo*/
  
  /* at home section of activities page */
  
- #AtHome, #kids-and-parents, #kidAdventues{
+ #activities main, #support main, #preschool main, #concerns main {
 
  margin-top: 70px;
  display: flex;
  flex-direction: column;
- align-items: center;
-
 
  
  .imgwrapper{
@@ -442,14 +446,27 @@ img[alt="Instagram"]{ /*formats fb logo*/
       text-align: center;
 
    }
+   }
  }
- }
+
+ #AddressConcerns{
+      .imggroup.long div{
+         width: 560px;
+         margin: 0px;
+        
+         p{
+            text-align: center;
+         }
+      }
+   }
+
+ #preschool main .imgwrapper .imggroup.short {
+   width:40%;
+ } 
  
  /* kids-parents section of activities page */
  
- #kids-and-parents img, #kidAdventues img{ /* resize all logos */
-      width: 30%;
- }
+
  
 
  
@@ -478,126 +495,12 @@ img[alt="Instagram"]{ /*formats fb logo*/
 
 
 
-#newParents img{ /* resize all logos */
-  width: 225px;
+#newParents img, #theraphy img, #caregivers img,  #kids-and-parents img, #kidAdventues img, #preschool img{ /* resize all logos */
+  width: 30%;
 }
-
-
-
-
-#newParents{
-  margin-top: 70px;
-
-
-  .imgwrapper{
-     display: flex;
-     flex-wrap: wrap;
-     gap: 50px;
-
-
-     ul{
-        list-style-type: none;
-        font-family: Arial, Helvetica, sans-serif;
-        padding-left: 0px;
-        text-align: center;
-        width: 250px;
-     }
-
-
-     .imggroup.short{
-        width: 235px;
-        p{
-           text-align: center;
-        }
-     }
-  }
-}
-
-
-
-
-#theraphy img{ /* resize all logos */
-  width: 225px;
-}
-
-
-
-
-#theraphy{
-  margin-top: 70px;
-
-
-  .imgwrapper{
-     display: flex;
-     flex-wrap: wrap;
-     gap: 50px;
-
-
-     ul{
-        list-style-type: none;
-        font-family: Arial, Helvetica, sans-serif;
-        padding-left: 0px;
-        text-align: center;
-        width: 250px;
-     }
-
-
-     .imggroup.short{
-        width: 235px;
-        p{
-           text-align: center;
-        }
-     }
-  }
-}
-
-
-
-
-#caregivers img{ /* resize all logos */
-  width: 225px;
-}
-
-
-
-
-#caregivers{
-  margin-top: 70px;
-
-
-  .imgwrapper{
-     display: flex;
-     flex-wrap: wrap;
-     gap: 50px;
-
-
-     ul{
-        list-style-type: none;
-        font-family: Arial, Helvetica, sans-serif;
-        padding-left: 0px;
-        text-align: center;
-        width: 250px;
-     }
-
-
-     .imggroup.short{
-        width: 235px;
-        p{
-           text-align: center;
-        }
-     }
-  }
-}
-
 
 /* ---PRESCHOOL SECTION--- */
 
-
-
-
-#preschool{
-  margin: 0px;
-}
 
 
 
@@ -615,55 +518,11 @@ img[alt="Instagram"]{ /*formats fb logo*/
 
 
 
-
-#preschool img{ /* resize all logos */
-   width: 225px;
-}
-
-
-
-
 #preschool main ul, #preschool .phone{
-     list-style-type: none;
-     font-family: Arial, Helvetica, sans-serif;
-     padding-left: 0px;
-     text-align: center;
-     width: 250px;
+   list-style-type: none;
+   font-family: Arial, Helvetica, sans-serif;
+   padding-left: 0px;
 }
-
-
-
-
-#headStartPre{ /* head Start section */
-   display: flex;
-   flex-wrap: row-wrap;
-   gap: 100px;
-
-
-
-
-   p{
-       width: 65%;
-       margin: 0px;
-       text-align: center;
-   }
-}
-
-
-
-
-#preschool .imgwrapper{
-  display: flex;
-  gap: 100px;
-}
-
-
-
-
-#PrivatePreschool{
-  margin-top: 70px;
-}
-
 
 
 
@@ -675,41 +534,7 @@ img[alt="Instagram"]{ /*formats fb logo*/
 }
 
 
-#AddressConcerns{
-  margin-top: 70px;
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
 
-
-  .imgwrapper{
-     align-self: center   ;
-     display: flex;
-     justify-content: center;
-     flex-wrap: wrap;
-     gap: 50px;
-     width:100%;
-
-
-     ul{
-        list-style-type: none;
-        font-family: Arial, Helvetica, sans-serif;
-        padding-left: 0px;
-        text-align: center;
-        width: 250px;
-     }
-
-
-     .imggroup.long div{
-        width: 560px;
-        margin: 0px;
-       
-        p{
-           text-align: center;
-        }
-     }
-  }
-}
 
 
 #age03 > div:nth-child(2){
